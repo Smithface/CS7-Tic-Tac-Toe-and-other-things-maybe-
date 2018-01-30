@@ -28,51 +28,51 @@
   font-size: 200px;
 }
 
-#gameBoard__square-1 {
+#gameBoard__square-1 { /* top left */
   border-right: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-#gameBoard__square-2 {
+#gameBoard__square-2 {  /* top middle */
   border-left: 1px solid black;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
 }
 
-#gameBoard__square-3 {
+#gameBoard__square-3 {   /* top right */
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
 }
 
-#gameBoard__square-4 {
+#gameBoard__square-4 {   /* middle left */
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-top: 1px solid black;
 }
 
-#gameBoard__square-5 {
+#gameBoard__square-5 {  /* middle middle */
   border: 1px solid black;
 }
 
-#gameBoard__square-6 {
+#gameBoard__square-6 {  /* middle right */
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-top: 1px solid black;
 }
 
-#gameBoard__square-7 {
+#gameBoard__square-7 {  /* bottom left */
   border-right: 1px solid black;
   border-top: 1px solid black;
 }
 
-#gameBoard__square-8 {
+#gameBoard__square-8 {  /* bottom middle */
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-top: 1px solid black;
 }
 
-#gameBoard__square-9 {
+#gameBoard__square-9 {   /* bottom right */
   border-left: 1px solid black;
   border-top: 1px solid black;
 }
