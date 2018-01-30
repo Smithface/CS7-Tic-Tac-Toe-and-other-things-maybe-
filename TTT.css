@@ -1,0 +1,78 @@
+.mainWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 800px;
+  background-color: darkolivegreen;
+  align-items: stretch;
+}
+
+.gameBoard__square {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: blue;
+  color: black;
+  width: 33.333%;
+  height: 33.333%;
+  font-size: 200px;
+}
+
+#gameBoard__square-1 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#gameBoard__square-2 {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#gameBoard__square-3 {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+#gameBoard__square-4 {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#gameBoard__square-5 {
+  border: 1px solid black;
+}
+
+#gameBoard__square-6 {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#gameBoard__square-7 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#gameBoard__square-8 {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
+
+#gameBoard__square-9 {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
