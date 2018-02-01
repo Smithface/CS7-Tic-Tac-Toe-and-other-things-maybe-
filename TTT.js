@@ -6,14 +6,14 @@ const addLetter = (id, letter) => { // function with 2 parameters, one that take
 };
 
 const checkSquare = (id) => { // function to check if square has already been marked; returns a boolean
-  if (document.getElementById(`${id}`).innerHTML) return false;
+  if (id && document.getElementById(`${id}`).innerHTML) return false; // return false if id exists and if the innerHTML of the element we clicked is defined (with an 'X' or 'O')
   return true;
 };
 
 addEventListener("click", (event) => { // EventListener, I assume on the whole document, that looks for a click
   let idNum = event.target.id; // store the id of what I clicked on
   let squareEmpty = checkSquare(idNum); // Call function to check if square has already been marked and store into variable 
-  if(idNum && isMyTurn && squareEmpty) {  // if there is an idNum, it is my turn and square has not already been marked, then do the following
+  if (idNum && isMyTurn && squareEmpty) {  // if there is an idNum, it is my turn and square has not already been marked, then do the following
     addLetter(idNum, 'X'); // call addLetter function from line 4, give it the idNum we stored and the letter X to insert into the "innerHTML"
   }
   else if (idNum && !isMyTurn && squareEmpty) { // if it is not my turn, insert the letter O on the element (with an id) that was clicked
