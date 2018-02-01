@@ -2,7 +2,7 @@ let isMyTurn = true; // a variable that alternates between true and false, to si
 
 const addLetter = (id, letter) => { // function with 2 parameters, one that takes the id of the clicked square, and one that takes which letter to insert in that square
   document.getElementById(`${id}`).innerHTML = `${letter}`; // grab the element by its id and change its "innerHTML" (<-- I don't really know what this means)
-  isMyTurn = !isMyTurn; // I don't think the ternary operator was working, but this will
+  isMyTurn = !isMyTurn; // I don't think the ternary operator was working, but this will change whatever value isMyTurn is to the opposite value
 };
 
 const checkSquare = (id) => { // function to check if square has already been marked; returns a boolean
